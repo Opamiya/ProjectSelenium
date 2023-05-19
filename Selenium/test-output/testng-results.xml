@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[open browser]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[createProject]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[close browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48115" started-at="2023-03-31T07:44:36 IST" finished-at="2023-03-31T07:45:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48115" started-at="2023-03-31T07:44:36 IST" finished-at="2023-03-31T07:45:24 IST">
+      <class name="com.actitime.testscript.ProjectModule1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.actitime.testscript.ProjectModule1@44c8afef]" name="openBrowser" is-config="true" duration-ms="5005" started-at="2023-03-31T07:44:36 IST" finished-at="2023-03-31T07:44:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[open browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.testscript.ProjectModule1@44c8afef]" name="login" is-config="true" duration-ms="13630" started-at="2023-03-31T07:44:41 IST" finished-at="2023-03-31T07:44:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createProject()[pri:0, instance:com.actitime.testscript.ProjectModule1@44c8afef]" name="createProject" duration-ms="22871" started-at="2023-03-31T07:44:55 IST" finished-at="2023-03-31T07:45:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[createProject]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscript.ProjectModule1@44c8afef]" name="logout" is-config="true" duration-ms="6140" started-at="2023-03-31T07:45:18 IST" finished-at="2023-03-31T07:45:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.ProjectModule1@44c8afef]" name="closeBrowser" is-config="true" duration-ms="399" started-at="2023-03-31T07:45:24 IST" finished-at="2023-03-31T07:45:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.ProjectModule1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
